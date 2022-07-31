@@ -1,0 +1,15 @@
+@import '../App.css';
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+}
+
+.attributiona a {
+  text-decoration: none;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.attribution a:hover {
+  filter: brightness(1);
+}

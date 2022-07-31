@@ -1,0 +1,65 @@
+@import url('https://fonts.google.com/specimen/Manrope');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  background-color: var(--Dark-Blue);
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  background-color: var(--Dark-Grayish-Blue);
+  width: 400px;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.app-device h5 {
+  color: var(--Neon-Green);
+  margin-bottom: 10px;
+
+}
+
+.app-device p {
+  color: var(--Light-Cyan);
+  line-height: 1.1;
+}
+
+.app-device img {
+  width: 100%;
+}
+
+.App__icon--image {
+  width: 50px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App__icon--image:hover {
+  background-color: var(--Neon-Green);
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+
+}
