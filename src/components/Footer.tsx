@@ -7,7 +7,7 @@ export const Footer = () => {
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
         Frontend Mentor
       </a>
-      . Coded by <a href="#">Luiz de Lima</a>.
+      . Coded by <a href="https://github.com/Luiz-de-Lima">Luiz de Lima</a>.
     </footer>
   );
 };

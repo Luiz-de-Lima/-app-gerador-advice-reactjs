@@ -63,3 +63,9 @@ body {
   cursor: pointer;
 
 }
+
+@media (min-width: 500px) {
+  .App {
+    max-width: 480px;
+  }
+}

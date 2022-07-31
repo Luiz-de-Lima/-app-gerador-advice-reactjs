@@ -3,11 +3,13 @@
 .attribution {
   font-size: 12px;
   text-align: center;
+  color: var(--Light-Cyan);
+
 }
 
-.attributiona a {
+.attribution a {
   text-decoration: none;
-  color: var(--Dark-Grayish-Blue);
+  color: var(--Neon-Green)
 }
 
 .attribution a:hover {
