@@ -4,8 +4,12 @@ import iconDice from "./assets/icon-dice.svg";
 import "./App.css";
 import { useEffect, useState } from "react";
 
+type adviceProps = {
+  id: number;
+  advice: string;
+};
 const App = () => {
-  const [text, setText] = useState([]);
+  const [text, setText] = useState<adviceProps>();
   const url = "https://api.adviceslip.com/advice";
 
   const handleAdvice = async () => {
@@ -20,11 +24,8 @@ const App = () => {
   return (
     <main className="App">
       <div className="app-device">
-        <>
-          <h5>Advice #{text.id}</h5>
-          <p>{text.advice}</p>
-        </>
-
+        <h5>Advice #{text?.id}</h5>
+        <p>{text?.advice}</p>
         <img src={dividerDesktop} alt="divider desktop" />
       </div>
       <div className="App__icon--image">
