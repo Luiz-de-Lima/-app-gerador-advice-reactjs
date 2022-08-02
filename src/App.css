@@ -40,11 +40,12 @@ body {
   align-items: center;
 }
 
-.App__icon--image:hover {
+.App__icon--image img:hover {
   background-color: var(--Neon-Green);
-  border-radius: 50px;
-  padding: 10px;
+  border-radius: 50%;
+  padding: 5px;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .app-device h5 {
